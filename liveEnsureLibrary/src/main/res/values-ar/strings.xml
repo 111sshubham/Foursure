@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes,TypographyEllipsis">
+
+    <!-- begin strings for the Arabic locale -->
+    <string name="behavior_label_text">التحكم في التصرف</string>
+    <string name="reset_dev_confirm_title">هل أنت متأكد؟</string>
+    <string name="nav_auth">تصديق</string>
+    <string name="need_auth_label_text">يرجى المصادقة قبل تغيير الإعدادات أو تهئية أياً من المميزات.</string>
+    <string name="behavior_desc_text">أضف لمسة خفية إلى عمليات المصادقة القياسية مع خاصية التحكم في التصرف. سيتم قبول عمليات الدخول المؤداه بنفس الطريقة بالظبط. (انقر للتحرير) </string>
+    <string name="btn_label_buy">شراء</string>
+    <string name="cancel">*إلغاء</string>
+    <string name="canceled">*تم الإلغاء</string>
+    <string name="configuring">*جاري التهيئة ...</string>
+    <string name="reset_dev_confirm_message">هل أنت متأكد من أنك تريد إعادة ضبط جميع الأجهزة. </string>
+    <string name="connecting">جاري الإتصال ...</string>
+    <string name="contacting_store">*جاري الإتصال بالمتجر</string>
+    <string name="done">*تم</string>
+    <string name="edit">*تحرير</string>
+    <string name="nav_help">مساعدة</string>
+    <string name="msg_location_title">*التحكم في الموقع</string>
+    <string name="msg_location_description">*حدد موقع المنزل ومسافة معقولة. ومع تفعيل خاصية التحكم في الموقع، سيتم رفض أي عملية تسجيل دخول خارج نطاق الموقع المهيء. (انقر للتحرير)</string>
+    <string name="installed">*تم بنجاح تثبيت وتهيئة هذه الخاصية. استخدم مفتاح التشغيل/الإيقاف لتفعيل أو تعطيل هذه الخاصية. انقر على الاسم لإعادة الضبط أو إعادة التهيئة.</string>
+    <string name="introduction">*مقدمة</string>
+    <string name="need_auth_new_session_button_text">جلسة جديدة</string>
+    <string name="btn_label_next">التالي</string>
+    <string name="no">*لا</string>
+    <string name="no_features">*لم يتم تثبيت أي خاصيات حالياً. يمكنك العثور على مميزات الحماية الجديدة في المتجر.</string>
+    <string name="btn_label_ok">موافق</string>
+    <string name="btn_label_support">مساعدة على الإنترنت</string>
+    <string name="options">خيارات</string>
+    <string name="pin_label_text">PIN</string>
+    <string name="pin_desc_text">الخاصية متعددة العوامل القديمة في الإنتظار! استخدم عامل إضافي لكل جلسة أو احتياطي لغيره، تحديات فاشلة. (انقر للتحرير)</string>
+    <string name="pin_error_title">خطأ في رقم PIN</string>
+    <string name="pin_error_message">يجب أن يكون الـ PIN رقم من 3-6 أرقام</string>
+    <string name="reset_dev_button_text">إعادة ضبط كافة الأجهزة</string>
+    <string name="resetting">*جاري إعادة الضبط...</string>
+    <string name="btn_label_retry">أعد المحاولة</string>
+    <string name="pin_entry_label_text">(3-6 أرقام)\n:تعيين PIN الخاص بك</string>
+    <string name="store">*المتجر</string>
+    <string name="store_required">*We could not contact the App Store. Please try again later.</string>
+    <string name="btn_label_tutorial">درس تعليمي</string>
+    <string name="btn_label_view">عرض</string>
+    <string name="yes">نعم</string>
+    <!-- end translated strings -->
+    
+    <!-- misc strings -->
+    <string name="app_name">LiveEnsure</string>
+    <string name="error_fragment_text">Error</string>
+    <string name="prompt_fragment_text">Prompt</string>
+    <string name="nav_developer">Developer</string>
+    <string name="nav_open">Nav Open</string>
+    <string name="nav_closed">Nav Closed</string>
+    <string name="item_icon_description">Item Icon</string>
+    <string name="nav_item_default">Nav List Item</string>
+    <string name="session_initial_message">Failed Start</string>
+    <string name="session_error">Error</string>
+    <string name="connect_error">Connect Error</string>
+    <string name="request_error">Your request could not be completed. Please try again later</string>
+    <string name="success">Success</string>
+    <string name="bad_scan">Bad Scan</string>
+    <string name="btn_label_save">Save</string>
+    <string name="msg_unable_to_launch">Unable to Launch</string>
+    <string name="msg_google_play_services_reqd">Google Play Services is required for this application to run</string>
+    <string name="msg_loc_services_unsupported">Location services are not supported on this device.</string>
+    <string name="msg_loc_services_nocheck">Unable to check for location services on this device.</string>
+    <string name="session_credentials">session_credentials</string>
+    <string name="session_expiration">session_expiration</string>
+
+    <!-- camera capture view -->
+    <string name="touch_pane">Touch Pane</string>
+
+    <!-- options view -->
+    <string name="liveensure_drawer_hint">Tap for menu</string>
+
+    <!-- pin challenge config view -->
+    <string name="pin_entry_dot">•</string>
+
+    <!-- developer settings view -->
+    <string name="developer_host_text">Your fallback api host:</string>
+    <string name="btn_label_bones">bones</string>
+    <string name="btn_label_raven">raven</string>
+    <string name="btn_reset_purchases">Reset Purchases</string>
+    <string name="btn_reset_device">Reset Device</string>
+    <string name="raven_at_pauls">http://raven.lechnar.pvt:8080/live-identity/rest</string>
+    <string name="bones_api_host">http://bones.loyinc.pvt:8080/live-identity/rest</string>
+    <string name="dev_saved_message">Settings saved</string>
+    <string name="dev_device_reset_message">Device Reset</string>
+    <string name="dev_reset_purchases_title">Reset Purchases</string>
+    <string name="dev_no_purchases_to_consume">No current purchases to reset</string>
+
+    <!-- gui elements strings (defined in XML files) -->
+    <string name="LiveEnsure">LiveEnsure</string>
+    <string name="spinner_desc">Spinner Animation</string>
+
+</resources>

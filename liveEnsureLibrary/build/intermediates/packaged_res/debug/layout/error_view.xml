@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/error_fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/liveensure_fullscreen_background"
+    tools:context="com.liveensure.a.mini.MainActivity" >
+
+    <TextView
+        android:id="@+id/error_fragment_label"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/error_fragment_text"
+        android:textColor="@color/liveensure_normal_text"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+</FrameLayout>

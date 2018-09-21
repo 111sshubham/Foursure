@@ -1,0 +1,459 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/lyt_settings1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="80"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/btn_swap_stacks"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lbl_connect_id"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="15"
+            android:gravity="center|bottom"
+            android:text="@string/connect_id"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="4"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_new_id_entry"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <EditText
+                android:id="@+id/new_user_id"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="80"
+                android:background="@android:color/white"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/dark_text"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="8"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_btns_row_1"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="14"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/img_btn_factor_pin"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="35"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_pin"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/img_btn_factor_wearable"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="35"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_wearable"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="28"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_btn_save_id"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <ImageView
+                android:id="@+id/settings_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="20"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:gravity="left"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cancel" />
+
+            <ImageView
+                android:id="@+id/settings_help"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="20"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:gravity="left"
+                android:scaleType="fitCenter"
+                android:src="@drawable/help_circle" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/settings_save"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_weight="20"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/button1_text"
+                android:gravity="right"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ok" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="3"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_set_wearable_answer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="8"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/img_wearable"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="15"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_wearable_orange"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/lbl_loc_name"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"
+            android:gravity="center|bottom"
+            android:text="@string/wearable"
+            android:textColor="@android:color/white"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="5"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_wearable_rg"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="40"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:visibility="invisible" />
+
+            <RadioGroup
+                android:id="@+id/radioWearable"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="70" >
+
+                <RadioButton
+                    android:id="@+id/radioNone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/none" />
+
+                <RadioButton
+                    android:id="@+id/radioPebbleClassic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pebbleClassic" />
+
+                <RadioButton
+                    android:id="@+id/radioPebbleTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pebbleTime"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/radioSamsungGear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/samsungGear"
+                    android:visibility="gone" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="9"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_btn_save_chal_wearable"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <ImageView
+                android:id="@+id/details_wearable_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="20"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:gravity="left"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cancel" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/details_wearable_save"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_weight="20"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/button1_text"
+                android:gravity="right"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ok" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="3"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_set_pin_answer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/img_pin_icon"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="18"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_pin_orange"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/settings_pin_challenge_inputs"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="16"
+            android:gravity="center"
+            android:orientation="horizontal" />
+
+        <GridView
+            android:id="@+id/settings_pin_challenge_numpad"
+            android:layout_width="276dp"
+            android:layout_height="0px"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="40"
+            android:columnWidth="90dp"
+            android:gravity="center"
+            android:horizontalSpacing="0dp"
+            android:numColumns="3"
+            android:stretchMode="none"
+            android:verticalSpacing="0dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="3"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_btn_save_chal_pin"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <ImageView
+                android:id="@+id/details_pin_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="20"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:gravity="left"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cancel" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/details_pin_save"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_weight="20"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/button1_text"
+                android:gravity="right"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ok" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="3"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/lyt_settings_windowshade"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:visibility="gone" >
+    </RelativeLayout>
+
+</FrameLayout>

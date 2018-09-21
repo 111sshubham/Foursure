@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes,TypographyEllipsis">
+
+    <!-- begin strings for the German locale -->
+    <string name="behavior_label_text">Verhaltenskontrolle</string>
+    <string name="reset_dev_confirm_title">Sind Sie sicher?</string>
+    <string name="nav_auth">Authentifizieren</string>
+    <string name="need_auth_label_text">Bitte authentifizieren, bevor Sie Ihre Einstellungen ändern oder Funktionen konfigurieren.</string>
+    <string name="behavior_desc_text">Fügen Sie der Standard-Authentifizierung mit der Verhaltenskontrolle einen leichten Twist hinzu. Nur Anmeldungen, die genau richtig ausgeführt werden, werden akzeptiert. (Zum Bearbeiten tippen)</string>
+    <string name="btn_label_buy">Kaufen</string>
+    <string name="cancel">*Abbrechen</string>
+    <string name="canceled">*Abgebrochen</string>
+    <string name="configuring">*Konfigurieren ...</string>
+    <string name="reset_dev_confirm_message">Sind Sie sicher, dass Sie alle Geräte zurücksetzen möchten?</string>
+    <string name="connecting">Verbinden ...</string>
+    <string name="contacting_store">*Store kontaktieren</string>
+    <string name="done">*Fertig</string>
+    <string name="edit">*Bearbeiten</string>
+    <string name="nav_help">Hilfe</string>
+    <string name="msg_location_title">*Standortkontrolle</string>
+    <string name="msg_location_description">*Richten Sie einen Heim-Standort und eine angemessene Entfernung ein. Mit der aktivierten Standortkontrolle werden Anmeldeversuche außerhalb des konfigurierten Standortes abgelehnt. (Zum Bearbeiten tippen).</string>
+    <string name="installed">*Sie haben diese Funktion erfolgreich installiert und konfiguriert. Nutzen Sie Ein/Aus, um dies zu aktivieren oder deaktivieren. Zum Zurücksetzen oder Neukonfigurieren, tippen Sie einfach auf den Namen.</string>
+    <string name="introduction">*Einleitung</string>
+    <string name="need_auth_new_session_button_text">Neue Sitzung</string>
+    <string name="btn_label_next">Nächste</string>
+    <string name="no">*Nein</string>
+    <string name="no_features">*Im Moment sind keine Funktionen installiert. Im Store finden Sie neue Sicherheitsfunktionen.</string>
+    <string name="btn_label_ok">OK</string>
+    <string name="btn_label_support">Online-Hilfe</string>
+    <string name="options">Optionen</string>
+    <string name="pin_label_text">PIN</string>
+    <string name="pin_desc_text">Der alte Mehrfachfaktor-Standby ist da! Als Extra-Faktor für jede Sitzung verwenden oder als Rückgriff für andere, fehlgeschlagene Herausforderungen. (Zum Bearbeiten tippen)</string>
+    <string name="pin_error_title">PIN-Fehler</string>
+    <string name="pin_error_message">Ihr PIN muss 3 bis 6 Zeichen lang sein.</string>
+    <string name="reset_dev_button_text">Alle Geräte zurücksetzen</string>
+    <string name="resetting">*Zurücksetzen ...</string>
+    <string name="btn_label_retry">Wiederholen</string>
+    <string name="pin_entry_label_text">Stellen Sie Ihre PIN:\n(3 - 6 Stellen)</string>
+    <string name="store">*Store</string>
+    <string name="store_required">*We could not contact the App Store. Please try again later.</string>
+    <string name="btn_label_tutorial">Tutorial</string>
+    <string name="btn_label_view">Ansehen</string>
+    <string name="yes">Ja</string>
+    <!-- end translated strings -->
+
+
+    <!-- misc strings -->
+    <string name="app_name">LiveEnsure</string>
+    <string name="error_fragment_text">Error</string>
+    <string name="prompt_fragment_text">Prompt</string>
+    <string name="nav_developer">Developer</string>
+    <string name="nav_open">Nav Open</string>
+    <string name="nav_closed">Nav Closed</string>
+    <string name="item_icon_description">Item Icon</string>
+    <string name="nav_item_default">Nav List Item</string>
+    <string name="session_initial_message">Failed Start</string>
+    <string name="session_error">Error</string>
+    <string name="connect_error">Connect Error</string>
+    <string name="request_error">Your request could not be completed. Please try again later</string>
+    <string name="success">Success</string>
+    <string name="bad_scan">Bad Scan</string>
+    <string name="btn_label_save">Save</string>
+    <string name="msg_unable_to_launch">Unable to Launch</string>
+    <string name="msg_google_play_services_reqd">Google Play Services is required for this application to run</string>
+    <string name="msg_loc_services_unsupported">Location services are not supported on this device.</string>
+    <string name="msg_loc_services_nocheck">Unable to check for location services on this device.</string>
+    <string name="session_credentials">session_credentials</string>
+    <string name="session_expiration">session_expiration</string>
+
+    <!-- camera capture view -->
+    <string name="touch_pane">Touch Pane</string>
+
+    <!-- options view -->
+    <string name="liveensure_drawer_hint">Tap for menu</string>
+
+    <!-- pin challenge config view -->
+    <string name="pin_entry_dot">•</string>
+
+    <!-- developer settings view -->
+    <string name="developer_host_text">Your fallback api host:</string>
+    <string name="btn_label_bones">bones</string>
+    <string name="btn_label_raven">raven</string>
+    <string name="btn_reset_purchases">Reset Purchases</string>
+    <string name="btn_reset_device">Reset Device</string>
+    <string name="raven_at_pauls">http://raven.lechnar.pvt:8080/live-identity/rest</string>
+    <string name="bones_api_host">http://bones.loyinc.pvt:8080/live-identity/rest</string>
+    <string name="dev_saved_message">Settings saved</string>
+    <string name="dev_device_reset_message">Device Reset</string>
+    <string name="dev_reset_purchases_title">Reset Purchases</string>
+    <string name="dev_no_purchases_to_consume">No current purchases to reset</string>
+
+    <!-- gui elements strings (defined in XML files) -->
+    <string name="LiveEnsure">LiveEnsure</string>
+    <string name="spinner_desc">Spinner Animation</string>
+
+</resources>

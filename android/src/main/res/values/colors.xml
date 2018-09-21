@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="highlight_color_filter">#FBE5C2</color>
+    <color name="background_color">#1f1f1f</color>
+    <color name="background_color_light">#414141</color>
+    <color name="dark_text">#919191</color>
+    <color name="challenge_config_pane_background">#f3444444</color>
+    <color name="fs_orange">#de680d</color>
+    <color name="orange1">#ff9f02</color>
+    <color name="orange2">#fec300</color>
+    <color name="yellow1">#fafb02</color>
+    <color name="yellow2">#ffee56</color>
+    <color name="grey05">#7d9ba4</color>
+    <color name="blue2">#2f54d2</color>
+    <color name="blue25">#2444af</color>
+
+</resources>

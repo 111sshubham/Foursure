@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/success_fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/liveensure_fullscreen_background"
+    tools:context="com.liveensure.a.mini.MainActivity" >
+
+    <ImageView
+        android:id="@+id/success_drawer_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:contentDescription="@string/liveensure_drawer_hint"
+        android:src="@drawable/liveensure_drawer"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/success_main_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="35"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/success_graphic"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="30"
+            android:contentDescription="@string/success"
+            android:src="@drawable/status_success_512" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="35"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes,TypographyEllipsis">
+
+    <!-- begin strings for the English locale -->
+    <string name="behavior_label_text">Behavior Control</string>
+    <string name="reset_dev_confirm_title">Are you sure?</string>
+    <string name="nav_auth">Authenticate</string>
+    <string name="need_auth_label_text">Please authenticate before changing\nyour settings or configuring any\nfeatures.</string>
+    <string name="behavior_desc_text">Add a subtle twist to standard\nauthentications with Behavioral\nControl.  Only logins performed exactly\nthe right way will be accepted. (Tap to\nedit)</string>
+    <string name="btn_label_buy">Buy</string>
+    <string name="cancel">*Cancel</string>
+    <string name="canceled">*Canceled</string>
+    <string name="configuring">*Configuring ...</string>
+    <string name="reset_dev_confirm_message">Are you sure you want to reset all devices?</string>
+    <string name="connecting">Connecting ...</string>
+    <string name="contacting_store">*Contacting Store ...</string>
+    <string name="done">*Done</string>
+    <string name="edit">*Edit</string>
+    <string name="nav_help">Help</string>
+    <string name="msg_location_title">*Location Control</string>
+    <string name="msg_location_description">*Set a home location and a reasonable distance.  With Location Control enabled, any login attempted outside the configured location will be denied.</string>
+    <string name="installed">*You just installed a new feature.</string>
+    <string name="introduction">*Introduction</string>
+    <string name="need_auth_new_session_button_text">New Session</string>
+    <string name="btn_label_next">Next</string>
+    <string name="no">*No</string>
+    <string name="no_features">*No features installed.</string>
+    <string name="btn_label_ok">OK</string>
+    <string name="btn_label_support">Support</string>
+    <string name="options">Options</string>
+    <string name="pin_label_text">PIN</string>
+    <string name="pin_desc_text">The old multifactor standby is here!\nUse as an extra factor for every\nsession or as a fallback to other, failed\nchallenges. (Tap to edit)</string>
+    <string name="pin_error_title">PIN Error</string>
+    <string name="pin_error_message">Your pin must be a number with 3 - 6 digits</string>
+    <string name="pebble_logo_hint">Pebble</string>
+    <string name="pebble_label_text">Pebble</string>
+    <string name="pebble_name_label_text">No Pebble Available</string>
+    <string name="pebble_desc_text">Own a Pebble? Use it as another authentication factor to foil even the savviest of hackers!</string>
+    <string name="pebble_error_title">Pebble Error</string>
+    <string name="pebble_error_message">You must have a Pebble device paired</string>
+    <string name="reset_dev_button_text">Reset All Devices</string>
+    <string name="resetting">*Resetting ...</string>
+    <string name="btn_label_retry">Retry</string>
+    <string name="pin_entry_label_text">Set your PIN:\n(3 - 6 digits)</string>
+    <string name="store">*Store</string>
+    <string name="store_required">*We could not contact the App Store. Please try again later.</string>
+    <string name="btn_label_tutorial">Tutorial</string>
+    <string name="btn_label_view">View</string>
+    <string name="yes">Yes</string>
+    <!-- end translated strings -->
+
+
+    <!-- misc strings -->
+    <string name="app_name">LiveEnsure</string>
+    <string name="error_fragment_text">Error</string>
+    <string name="prompt_fragment_text">Prompt</string>
+    <string name="nav_developer">Developer</string>
+    <string name="nav_open">Nav Open</string>
+    <string name="nav_closed">Nav Closed</string>
+    <string name="item_icon_description">Item Icon</string>
+    <string name="nav_item_default">Nav List Item</string>
+    <string name="session_initial_message">Failed Start</string>
+    <string name="session_error">Error</string>
+    <string name="connect_error">Connect Error</string>
+    <string name="request_error">Your request could not be completed. Please try again later</string>
+    <string name="success">Success</string>
+    <string name="bad_scan">Bad Scan</string>
+    <string name="btn_label_save">Save</string>
+    <string name="msg_unable_to_launch">Unable to Launch</string>
+    <string name="msg_google_play_services_reqd">Google Play Services is required for this application to run</string>
+    <string name="msg_loc_services_unsupported">Location services are not supported on this device.</string>
+    <string name="msg_loc_services_nocheck">Unable to check for location services on this device.</string>
+    <string name="session_credentials">session_credentials</string>
+    <string name="session_expiration">session_expiration</string>
+
+    <!-- camera capture view -->
+    <string name="touch_pane">Touch Pane</string>
+
+    <!-- options view -->
+    <string name="liveensure_drawer_hint">Tap for menu</string>
+
+    <!-- pin challenge config view -->
+    <string name="pin_entry_dot">•</string>
+
+    <!-- developer settings view -->
+    <string name="developer_host_text">Your fallback api host:</string>
+    <string name="btn_label_bones">bones</string>
+    <string name="btn_label_raven">raven</string>
+    <string name="btn_reset_purchases">Reset Purchases</string>
+    <string name="btn_reset_device">Reset Device</string>
+    <string name="raven_at_pauls">http://raven.lechnar.pvt:8080/live-identity/rest</string>
+    <string name="bones_api_host">http://bones.loyinc.pvt:8080/live-identity/rest</string>
+    <string name="dev_saved_message">Settings saved</string>
+    <string name="dev_device_reset_message">Device Reset</string>
+    <string name="dev_reset_purchases_title">Reset Purchases</string>
+    <string name="dev_no_purchases_to_consume">No current purchases to reset</string>
+
+    <!-- gui elements strings (defined in XML files) -->
+    <string name="LiveEnsure">LiveEnsure</string>
+    <string name="spinner_desc">Spinner Animation</string>
+
+</resources>

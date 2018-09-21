@@ -1,0 +1,17 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="CLR_GRAY">#cccccc</color>
+    <color name="CLR_DARKGRAY">#333333</color>
+    <color name="CLR_WHITE">#ffffff</color>
+    <color name="CLR_BLACK">#000000</color>
+    <color name="CLR_BLUE">#0000ff</color>
+    <color name="CLR_DISABLED">#333333</color>
+    <color name="liveensure_fullscreen_background">#ffffffff</color>
+    <color name="liveensure_rollover_transwhite">#ccffffff</color>
+    <color name="liveensure_rollover_black">#ff000000</color>
+    <color name="liveensure_text_black">#ff000000</color>
+    <color name="liveensure_normal_text">#ffffffff</color>
+    <color name="liveensure_rollover_transparent">#00ffffff</color>
+
+</resources>

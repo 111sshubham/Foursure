@@ -1,0 +1,4 @@
+#Fri Sep 21 15:35:03 IST 2018
+base.0=/home/user/Downloads/Foursure/android/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/help_fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/liveensure_fullscreen_background"
+    tools:context="com.liveensure.a.mini.MainActivity" >
+
+    <ImageView
+        android:id="@+id/help_drawer_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:contentDescription="@string/liveensure_drawer_hint"
+        android:src="@drawable/liveensure_drawer" />
+
+    <LinearLayout
+        android:id="@+id/help_main_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="30"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/help_tutorial_button"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="10"
+            android:autoLink="web"
+            android:background="@drawable/help_button_background"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:text="@string/btn_label_tutorial"
+            android:textColor="@color/liveensure_normal_text"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="8"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/help_options_button"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="10"
+            android:background="@drawable/help_button_background"
+            android:text="@string/options"
+            android:textColor="@color/liveensure_normal_text"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="8"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/help_support_button"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="10"
+            android:background="@drawable/help_button_background"
+            android:text="@string/btn_label_support"
+            android:textColor="@color/liveensure_normal_text"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="24"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/help_app_version_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/liveensure_normal_text" />
+
+</RelativeLayout>

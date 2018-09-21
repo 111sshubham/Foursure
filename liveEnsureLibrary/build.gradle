@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "28.0.2"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 26
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.2.4'
+    implementation 'com.google.android.gms:play-services:3.2.65'
+    implementation project(':peBBLE_KIT_module')
+//    implementation files('libs/volley-20150610.jar')
+    implementation 'com.android.volley:volley:1.1.1'
+}

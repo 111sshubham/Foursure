@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes,TypographyEllipsis">
+
+    <!-- begin strings for the Spanish locale -->
+    <string name="behavior_label_text">Control por Comportamiento</string>
+    <string name="reset_dev_confirm_title">¿Está seguro?</string>
+    <string name="nav_auth">Autentíquese</string>
+    <string name="need_auth_label_text">Por favor, autentíquese antes de cambiar su configuración o de configurar cualquier característica.</string>
+    <string name="behavior_desc_text">Añada un toque sutil a las autenticaciones estándar con Control por el Comportamiento. Solo serán aceptados los inicios de sesión realizados exactamente de la forma correcta. (Pulsar para modificar)</string>
+    <string name="btn_label_buy">Comprar</string>
+    <string name="cancel">*Cancelar</string>
+    <string name="canceled">*Cancelado</string>
+    <string name="configuring">*Configurando ...</string>
+    <string name="reset_dev_confirm_message">¿Está seguro de que quiere reiniciar todos sus dispositivos?</string>
+    <string name="connecting">Conectando ...</string>
+    <string name="contacting_store">*Contactando con la tienda</string>
+    <string name="done">*Hecho</string>
+    <string name="edit">*Editar</string>
+    <string name="nav_help">Ayuda</string>
+    <string name="msg_location_title">*Control de ubicación</string>
+    <string name="msg_location_description">*Establezca una ubicación de residencia y una distancia razonable. Con el Control de Localización activado, cualquier inicio de sesión que se intente fuera de la localización configurada se rehusará. (Pulsar para modificar).</string>
+    <string name="installed">*Ha instalado y configurado correctamente esta función. Use el interruptor On/Off para encender y apagar. Pulse el nombre para reiniciar o reconfigurar.</string>
+    <string name="introduction">*Introducción</string>
+    <string name="need_auth_new_session_button_text">Nueva sesión</string>
+    <string name="btn_label_next">Próximo</string>
+    <string name="no">*No</string>
+    <string name="no_features">*No tiene ninguna función instalada en este momento. Puede encontrar nuevas funciones de seguridad en la tienda.</string>
+    <string name="btn_label_ok">Aceptar</string>
+    <string name="btn_label_support">Ayuda en línea</string>
+    <string name="options">Opciones</string>
+    <string name="pin_label_text">PIN</string>
+    <string name="pin_desc_text">¡Ha llegado el viejo recurso multifactorial! Utilícelo como un factor adicional para cada sesión o como reserva para sí, falla los desafíos. (Pulsar para modificar)</string>
+    <string name="pin_error_title">Error en el PIN</string>
+    <string name="pin_error_message">Su pin debe ser un número de 3 - 6 dígitos.</string>
+    <string name="reset_dev_button_text">Reiniciar todos los dispositivos</string>
+    <string name="resetting">*Reiniciando ...</string>
+    <string name="btn_label_retry">Reintente</string>
+    <string name="pin_entry_label_text">Programe su PIN:\n(3 - 6 dígitos)</string>
+    <string name="store">*Tienda</string>
+    <string name="store_required">*We could not contact the App Store. Please try again later.</string>
+    <string name="btn_label_tutorial">Tutorial</string>
+    <string name="btn_label_view">Vista</string>
+    <string name="yes">Sí</string>
+    <!-- end translated strings -->
+    
+    <!-- misc strings -->
+    <string name="app_name">LiveEnsure</string>
+    <string name="error_fragment_text">Error</string>
+    <string name="prompt_fragment_text">Prompt</string>
+    <string name="nav_developer">Developer</string>
+    <string name="nav_open">Nav Open</string>
+    <string name="nav_closed">Nav Closed</string>
+    <string name="item_icon_description">Item Icon</string>
+    <string name="nav_item_default">Nav List Item</string>
+    <string name="session_initial_message">Failed Start</string>
+    <string name="session_error">Error</string>
+    <string name="connect_error">Connect Error</string>
+    <string name="request_error">Your request could not be completed. Please try again later</string>
+    <string name="success">Success</string>
+    <string name="bad_scan">Bad Scan</string>
+    <string name="btn_label_save">Save</string>
+    <string name="msg_unable_to_launch">Unable to Launch</string>
+    <string name="msg_google_play_services_reqd">Google Play Services is required for this application to run</string>
+    <string name="msg_loc_services_unsupported">Location services are not supported on this device.</string>
+    <string name="msg_loc_services_nocheck">Unable to check for location services on this device.</string>
+    <string name="session_credentials">session_credentials</string>
+    <string name="session_expiration">session_expiration</string>
+
+    <!-- camera capture view -->
+    <string name="touch_pane">Touch Pane</string>
+
+    <!-- options view -->
+    <string name="liveensure_drawer_hint">Tap for menu</string>
+
+    <!-- pin challenge config view -->
+    <string name="pin_entry_dot">•</string>
+
+    <!-- developer settings view -->
+    <string name="developer_host_text">Your fallback api host:</string>
+    <string name="btn_label_bones">bones</string>
+    <string name="btn_label_raven">raven</string>
+    <string name="btn_reset_purchases">Reset Purchases</string>
+    <string name="btn_reset_device">Reset Device</string>
+    <string name="raven_at_pauls">http://raven.lechnar.pvt:8080/live-identity/rest</string>
+    <string name="bones_api_host">http://bones.loyinc.pvt:8080/live-identity/rest</string>
+    <string name="dev_saved_message">Settings saved</string>
+    <string name="dev_device_reset_message">Device Reset</string>
+    <string name="dev_reset_purchases_title">Reset Purchases</string>
+    <string name="dev_no_purchases_to_consume">No current purchases to reset</string>
+
+    <!-- gui elements strings (defined in XML files) -->
+    <string name="LiveEnsure">LiveEnsure</string>
+    <string name="spinner_desc">Spinner Animation</string>
+
+</resources>

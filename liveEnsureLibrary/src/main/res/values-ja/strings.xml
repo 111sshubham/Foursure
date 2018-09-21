@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes,TypographyEllipsis">
+
+    <!-- begin strings for the Japanese locale -->
+    <string name="behavior_label_text">行動コントロール</string>
+    <string name="reset_dev_confirm_title">よろしいですか?</string>
+    <string name="nav_auth">認証</string>
+    <string name="need_auth_label_text">設定の変更や機能の構成の前に認証を行ってください。</string>
+    <string name="behavior_desc_text">行動コントロールを使えば、普通の認証にちょっとした一ひねりを追加できます。正確で正しい方法でのログインしか受付けられません。（タップして編集）</string>
+    <string name="btn_label_buy">購入</string>
+    <string name="cancel">*キャンセル</string>
+    <string name="canceled">*キャンセルされました</string>
+    <string name="configuring">*構成中…</string>
+    <string name="reset_dev_confirm_message">本当に全てのデバイスをリセットしますか?</string>
+    <string name="connecting">接続中…</string>
+    <string name="contacting_store">*ストアへ接続中</string>
+    <string name="done">*完了</string>
+    <string name="edit">*編集</string>
+    <string name="nav_help">ヘルプ</string>
+    <string name="msg_location_title">*位置コントロール</string>
+    <string name="msg_location_description">*ホームの位置と適切な距離を設定します。位置コントロールを有効化すると、設定されたエリアの外で試みたログインは全て拒否されます。（タップして編集）</string>
+    <string name="installed">*この機能のインストールと構成が無事完了しました。オン・オフスイッチを使えば有効化・無効化への切り替えができます。名前をタップすればリセットまたは再構成ができます。</string>
+    <string name="introduction">*はじめに</string>
+    <string name="need_auth_new_session_button_text">新規セッション</string>
+    <string name="btn_label_next">次</string>
+    <string name="no">*いいえ</string>
+    <string name="no_features">*機能は現在インストールされていません。ストアに新しいセキュリティ機能があります。</string>
+    <string name="btn_label_ok">OK</string>
+    <string name="btn_label_support">オンラインヘルプ</string>
+    <string name="options">オプション</string>
+    <string name="pin_label_text">PIN</string>
+    <string name="pin_desc_text">昔ながらの多要素の代役がここに! 各セッションの追加要素として、またはでその他の失敗したチャレンジの予備として使えます。（タップして編集）</string>
+    <string name="pin_error_title">PINエラー</string>
+    <string name="pin_error_message">PINは3~6桁の数字である必要があります。</string>
+    <string name="reset_dev_button_text">全てのデバイスをリセット</string>
+    <string name="resetting">リセット中…</string>
+    <string name="btn_label_retry">リトライ</string>
+    <string name="pin_entry_label_text">暗証番号を設定します。\n(3~6桁)</string>
+    <string name="store">*ストア</string>
+    <string name="store_required">*We could not contact the App Store. Please try again later.</string>
+    <string name="btn_label_tutorial">チュートリアル</string>
+    <string name="btn_label_view">見る</string>
+    <string name="yes">はい</string>
+    <!-- end translated strings -->
+
+
+    <!-- misc strings -->
+    <string name="app_name">LiveEnsure</string>
+    <string name="error_fragment_text">Error</string>
+    <string name="prompt_fragment_text">Prompt</string>
+    <string name="nav_developer">Developer</string>
+    <string name="nav_open">Nav Open</string>
+    <string name="nav_closed">Nav Closed</string>
+    <string name="item_icon_description">Item Icon</string>
+    <string name="nav_item_default">Nav List Item</string>
+    <string name="session_initial_message">Failed Start</string>
+    <string name="session_error">Error</string>
+    <string name="connect_error">Connect Error</string>
+    <string name="request_error">Your request could not be completed. Please try again later</string>
+    <string name="success">Success</string>
+    <string name="bad_scan">Bad Scan</string>
+    <string name="btn_label_save">Save</string>
+    <string name="msg_unable_to_launch">Unable to Launch</string>
+    <string name="msg_google_play_services_reqd">Google Play Services is required for this application to run</string>
+    <string name="msg_loc_services_unsupported">Location services are not supported on this device.</string>
+    <string name="msg_loc_services_nocheck">Unable to check for location services on this device.</string>
+    <string name="session_credentials">session_credentials</string>
+    <string name="session_expiration">session_expiration</string>
+
+    <!-- camera capture view -->
+    <string name="touch_pane">Touch Pane</string>
+
+    <!-- options view -->
+    <string name="liveensure_drawer_hint">Tap for menu</string>
+
+    <!-- pin challenge config view -->
+    <string name="pin_entry_dot">•</string>
+
+    <!-- developer settings view -->
+    <string name="developer_host_text">Your fallback api host:</string>
+    <string name="btn_label_bones">bones</string>
+    <string name="btn_label_raven">raven</string>
+    <string name="btn_reset_purchases">Reset Purchases</string>
+    <string name="btn_reset_device">Reset Device</string>
+    <string name="raven_at_pauls">http://raven.lechnar.pvt:8080/live-identity/rest</string>
+    <string name="bones_api_host">http://bones.loyinc.pvt:8080/live-identity/rest</string>
+    <string name="dev_saved_message">Settings saved</string>
+    <string name="dev_device_reset_message">Device Reset</string>
+    <string name="dev_reset_purchases_title">Reset Purchases</string>
+    <string name="dev_no_purchases_to_consume">No current purchases to reset</string>
+
+    <!-- gui elements strings (defined in XML files) -->
+    <string name="LiveEnsure">LiveEnsure</string>
+    <string name="spinner_desc">Spinner Animation</string>
+
+</resources>

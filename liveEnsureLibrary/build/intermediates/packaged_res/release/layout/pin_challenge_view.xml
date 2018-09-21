@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pin_challenge_fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.liveensure.a.mini.MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="10"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/img_behavior_icon"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="18"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_pin_orange"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/pin_challenge_inputs"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="18"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+    <GridView
+        android:id="@+id/pin_challenge_numpad"
+        android:layout_width="276dp"
+        android:layout_height="0px"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="40"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="0dp"
+        android:numColumns="3"
+        android:stretchMode="none"
+        android:verticalSpacing="0dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="14"
+        android:visibility="invisible" />
+
+</LinearLayout>

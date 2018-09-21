@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/need_auth_fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/liveensure_fullscreen_background"
+    tools:context="com.liveensure.a.mini.MainActivity" >
+
+    <ImageView
+        android:id="@+id/need_auth_drawer_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:contentDescription="@string/liveensure_drawer_hint"
+        android:src="@drawable/liveensure_drawer" />
+
+    <TextView
+        android:id="@+id/need_auth_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/need_auth_drawer_icon"
+        android:layout_marginTop="75dp"
+        android:paddingLeft="30dp"
+        android:text="@string/need_auth_label_text"
+        android:textColor="@color/liveensure_normal_text"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/need_auth_new_session_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/need_auth_new_session_button_text" />
+
+</RelativeLayout>

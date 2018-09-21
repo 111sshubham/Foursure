@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Fri Sep 21 15:35:04 IST 2018
+1.base=/home/user/Downloads/Foursure/android/build/intermediates/assets/release
+2.path=classes.dex
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=/home/user/Downloads/Foursure/android/build/intermediates/transforms/dexMerger/release/0
+3.set=ASSET
+2.set=DEX
+1.baseType=DIRECTORY
+3.path=html/default_help.html
+count=4
+1.set=ASSET
+0.path=local.properties.sample
+3.base=/home/user/Downloads/Foursure/android/build/intermediates/assets/release
+0.set=ASSET
+0.base=/home/user/Downloads/Foursure/android/build/intermediates/assets/release
+2.baseType=DIRECTORY
+1.path=local.properties

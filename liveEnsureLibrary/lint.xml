@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="MissingTranslation" severity="warning" />
+    <issue id="NestedWeights" severity="ignore">
+        <ignore path="res/layout/behavior_challenge_view.xml" />
+    </issue>
+    <issue id="RtlHardcoded" severity="ignore">
+        <ignore path="res/layout/behavior_challenge_view.xml" />
+    </issue>
+    <issue id="RtlSymmetry" severity="ignore">
+        <ignore path="res/layout/prompt_view.xml" />
+    </issue>
+</lint>

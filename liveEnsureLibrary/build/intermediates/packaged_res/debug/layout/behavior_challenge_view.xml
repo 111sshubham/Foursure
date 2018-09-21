@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/behavior_challenge_fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center_horizontal" >
+
+    <LinearLayout
+        android:id="@+id/behavior_challenge_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="99" >
+
+        <LinearLayout
+            android:id="@+id/behavior_challenge_row_1"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="33"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <View
+                android:id="@+id/behavior_challenge_cell_1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/LiveEnsure" />
+
+            <View
+                android:id="@+id/behavior_challenge_cell_2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/LiveEnsure" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/behavior_challenge_row_2"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="33"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <View
+                android:id="@+id/behavior_challenge_cell_3"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/LiveEnsure" />
+
+            <View
+                android:id="@+id/behavior_challenge_cell_4"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/LiveEnsure" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/behavior_challenge_row_3"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="33"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <View
+                android:id="@+id/behavior_challenge_cell_5"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/LiveEnsure" />
+
+            <View
+                android:id="@+id/behavior_challenge_cell_6"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/LiveEnsure" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/lyt_set_behavior_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/img_behavior_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_behavior_orange"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/full_screen_touch_listener"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="visible" >
+    </FrameLayout>
+
+</RelativeLayout>

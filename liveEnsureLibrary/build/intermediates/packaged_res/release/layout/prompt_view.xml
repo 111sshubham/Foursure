@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/prompt_view_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:background="@android:color/transparent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:weightSum="100" >
+
+    <TextView
+        android:id="@+id/fragment_top_padding"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="20"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/prompt_fragment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="30"
+        android:background="@android:color/transparent" >
+
+        <ImageView
+            android:id="@+id/prompt_challenge_drawer_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:contentDescription="@string/liveensure_drawer_hint"
+            android:src="@drawable/liveensure_drawer"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/prompt_fragment_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/prompt_challenge_drawer_icon"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:alpha="0.5"
+            android:text="@string/prompt_fragment_text"
+            android:textColor="@color/liveensure_normal_text"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/prompt_fragment_input"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/prompt_fragment_label"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_rect_white"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/prompt_fragment_next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_alignRight="@id/prompt_fragment_input"
+            android:layout_below="@id/prompt_fragment_input"
+            android:layout_marginTop="18dp"
+            android:background="@android:color/transparent"
+            android:lines="1"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/btn_label_next"
+            android:textColor="@color/liveensure_normal_text"
+            android:alpha="0.5"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <!--     android:background="@drawable/rounded_rect_white"
+         -->
+        
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/fragment_bottom_padding"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="50"
+        android:visibility="invisible" />
+
+</LinearLayout>

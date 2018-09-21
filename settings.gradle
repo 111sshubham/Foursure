@@ -1,0 +1,3 @@
+include ':liveEnsureLibrary'
+include ':android'
+include ':peBBLE_KIT_module'

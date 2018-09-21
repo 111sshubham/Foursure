@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes,TypographyEllipsis">
+
+    <!-- begin strings for the Chinese locale -->
+    <string name="behavior_label_text">行为控制</string>
+    <string name="reset_dev_confirm_title">你确定吗？</string>
+    <string name="nav_auth">认证</string>
+    <string name="need_auth_label_text">更改设置或功能之前请先验证。</string>
+    <string name="behavior_desc_text">用行为控制替标准认证添加微妙转折。只有完全正确的登入才会被接受。 （点击编辑）</string>
+    <string name="btn_label_buy">购买</string>
+    <string name="cancel">*取消</string>
+    <string name="canceled">*已取消</string>
+    <string name="configuring">*配置 ...</string>
+    <string name="reset_dev_confirm_message">确定要重置所有设备？</string>
+    <string name="connecting">连线中 ...</string>
+    <string name="contacting_store">*联系商店</string>
+    <string name="done">*完成</string>
+    <string name="edit">*编辑</string>
+    <string name="nav_help">帮助</string>
+    <string name="msg_location_title">*位置控制</string>
+    <string name="msg_location_description">*设置一个本地位置与合理距离。启用位置控制时，所设置点以外任何登入尝试都将被拒绝。 （点击编辑）</string>
+    <string name="installed">*您已成功安装和配置此功能。使用开/关钮来启用或停用。点选名称重设或重新配置。</string>
+    <string name="introduction">*介绍</string>
+    <string name="need_auth_new_session_button_text">新登入</string>
+    <string name="btn_label_next">下一个</string>
+    <string name="no">*不</string>
+    <string name="no_features">*目前并无安装功能。可上店里寻找新的安全功能。</string>
+    <string name="btn_label_ok">好</string>
+    <string name="btn_label_support">在线帮助</string>
+    <string name="options">选项</string>
+    <string name="pin_label_text">密码</string>
+    <string name="pin_desc_text">熟习的多因素待机就在这里！可当额外因素用于每段登入，或作为其他挑战失败的后备。（点击编辑）</string>
+    <string name="pin_error_title">密码错误</string>
+    <string name="pin_error_message">密码必须是3- 6位数字。</string>
+    <string name="reset_dev_button_text">重置所有设备</string>
+    <string name="resetting">*重设中 ...</string>
+    <string name="btn_label_retry">重试</string>
+    <string name="pin_entry_label_text">设置您的密码:\n(3 - 6位数字)</string>
+    <string name="store">*商店</string>
+    <string name="store_required">*We could not contact the App Store. Please try again later.</string>
+    <string name="btn_label_tutorial">教程</string>
+    <string name="btn_label_view">观看</string>
+    <string name="yes">是的</string>
+    <!-- end translated strings -->
+    
+    <!-- misc strings -->
+    <string name="app_name">LiveEnsure</string>
+    <string name="error_fragment_text">Error</string>
+    <string name="prompt_fragment_text">Prompt</string>
+    <string name="nav_developer">Developer</string>
+    <string name="nav_open">Nav Open</string>
+    <string name="nav_closed">Nav Closed</string>
+    <string name="item_icon_description">Item Icon</string>
+    <string name="nav_item_default">Nav List Item</string>
+    <string name="session_initial_message">Failed Start</string>
+    <string name="session_error">Error</string>
+    <string name="connect_error">Connect Error</string>
+    <string name="request_error">Your request could not be completed. Please try again later</string>
+    <string name="success">Success</string>
+    <string name="bad_scan">Bad Scan</string>
+    <string name="btn_label_save">Save</string>
+    <string name="msg_unable_to_launch">Unable to Launch</string>
+    <string name="msg_google_play_services_reqd">Google Play Services is required for this application to run</string>
+    <string name="msg_loc_services_unsupported">Location services are not supported on this device.</string>
+    <string name="msg_loc_services_nocheck">Unable to check for location services on this device.</string>
+    <string name="session_credentials">session_credentials</string>
+    <string name="session_expiration">session_expiration</string>
+
+    <!-- camera capture view -->
+    <string name="touch_pane">Touch Pane</string>
+
+    <!-- options view -->
+    <string name="liveensure_drawer_hint">Tap for menu</string>
+
+    <!-- pin challenge config view -->
+    <string name="pin_entry_dot">•</string>
+
+    <!-- developer settings view -->
+    <string name="developer_host_text">Your fallback api host:</string>
+    <string name="btn_label_bones">bones</string>
+    <string name="btn_label_raven">raven</string>
+    <string name="btn_reset_purchases">Reset Purchases</string>
+    <string name="btn_reset_device">Reset Device</string>
+    <string name="raven_at_pauls">http://raven.lechnar.pvt:8080/live-identity/rest</string>
+    <string name="bones_api_host">http://bones.loyinc.pvt:8080/live-identity/rest</string>
+    <string name="dev_saved_message">Settings saved</string>
+    <string name="dev_device_reset_message">Device Reset</string>
+    <string name="dev_reset_purchases_title">Reset Purchases</string>
+    <string name="dev_no_purchases_to_consume">No current purchases to reset</string>
+
+    <!-- gui elements strings (defined in XML files) -->
+    <string name="LiveEnsure">LiveEnsure</string>
+    <string name="spinner_desc">Spinner Animation</string>
+
+</resources>

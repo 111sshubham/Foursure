@@ -1,0 +1,792 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/lyt_share_chal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_share_url_entry"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <ImageView
+                android:id="@+id/btn_share_back"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="15"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/home_gray"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/share_asset_value"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:background="@android:color/transparent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/dark_text"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:id="@+id/btn_share_help"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="15"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/help_gray"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="8"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_btns_row_1"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="18"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <ImageView
+                android:id="@+id/share_factor_knowledge"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:contentDescription="@string/app_name"
+                android:paddingRight="20dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/icon_knowledge"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/share_factor_location"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:contentDescription="@string/app_name"
+                android:paddingLeft="20dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/icon_location"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="6"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_btns_row_2"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="18"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <ImageView
+                android:id="@+id/share_factor_time"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:contentDescription="@string/app_name"
+                android:paddingRight="20dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/icon_time"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/share_factor_behavior"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:contentDescription="@string/app_name"
+                android:paddingLeft="20dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/icon_behavior"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="17"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_btns_row_3"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="18"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/share_option_shield"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitEnd"
+                android:src="@drawable/icon_shield"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/share_create"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="30"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon_ok_512" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/share_option_track"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitEnd"
+                android:src="@drawable/icon_track" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="3"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_set_knowledge_answer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color_light"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="12"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/img_chal_config_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="18"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_knowledge_orange"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/lbl_chal_name"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"
+            android:gravity="center|bottom"
+            android:text="@string/secret"
+            android:textColor="@android:color/white"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="5"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_chal_answer_entry"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <EditText
+                android:id="@+id/txt_details_knowledge"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/dark_text"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="34"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_btn_save_chal_knowledge"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <ImageView
+                android:id="@+id/details_knowledge_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="20"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:gravity="left"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cancel" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/details_knowledge_save"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_weight="20"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/button1_text"
+                android:gravity="right"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ok" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="3"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_set_location_answer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color_light"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="8"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/img_loc"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="15"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_location_orange"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/lbl_loc_name"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"
+            android:gravity="center|bottom"
+            android:text="@string/location"
+            android:textColor="@android:color/white"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="5"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_location_rg"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="40"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:visibility="invisible" />
+
+            <RadioGroup
+                android:id="@+id/radioLoc"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="70" >
+
+                <RadioButton
+                    android:id="@+id/radioHere"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/here" />
+
+                <RadioButton
+                    android:id="@+id/radioNearby"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nearby" />
+
+                <RadioButton
+                    android:id="@+id/radioRegion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/region" />
+
+                <RadioButton
+                    android:id="@+id/radioAnywhere"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/anywhere" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="9"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_btn_save_chal_location"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <ImageView
+                android:id="@+id/details_location_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="20"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:gravity="left"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cancel" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/details_location_save"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_weight="20"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/button1_text"
+                android:gravity="right"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ok" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="3"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_set_time_answer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color_light"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="8"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/img_time"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="15"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_time_orange"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/lbl_time_name"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"
+            android:gravity="center|bottom"
+            android:text="@string/time"
+            android:textColor="@android:color/white"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="5"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_time_rg"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="40"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:visibility="invisible" />
+
+            <RadioGroup
+                android:id="@+id/radioTime"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="70" >
+
+                <RadioButton
+                    android:id="@+id/radioOneMinute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/oneminute" />
+
+                <RadioButton
+                    android:id="@+id/radioOneHour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/onehour" />
+
+                <RadioButton
+                    android:id="@+id/radioOneDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/oneday" />
+
+                <RadioButton
+                    android:id="@+id/radioOneWeek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/oneweek" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="9"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_btn_save_chal_time"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <ImageView
+                android:id="@+id/details_time_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="20"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:gravity="left"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cancel" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/details_time_save"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_weight="20"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/button1_text"
+                android:gravity="right"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ok" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="3"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/behavior_challenge_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color_light"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:weightSum="99" >
+
+        <LinearLayout
+            android:id="@+id/behavior_challenge_row_1"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="33"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <View
+                android:id="@+id/behavior_challenge_cell_1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/LiveEnsure" />
+
+            <View
+                android:id="@+id/behavior_challenge_cell_2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/LiveEnsure" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/behavior_challenge_row_2"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="33"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <View
+                android:id="@+id/behavior_challenge_cell_3"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/LiveEnsure" />
+
+            <View
+                android:id="@+id/behavior_challenge_cell_4"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/LiveEnsure" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/behavior_challenge_row_3"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="33"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+
+            <View
+                android:id="@+id/behavior_challenge_cell_5"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/LiveEnsure" />
+
+            <View
+                android:id="@+id/behavior_challenge_cell_6"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/LiveEnsure" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/lyt_set_behavior_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/img_behavior_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_behavior_orange"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/behavior_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_behavior_icon"
+            android:layout_centerHorizontal="true"
+            android:text="@string/touch"
+            android:textColor="@android:color/white"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/details_behavior_cancel"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="30dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:gravity="left"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cancel" />
+
+        <ImageView
+            android:id="@+id/details_behavior_save"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginRight="30dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/button1_text"
+            android:gravity="right"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ok" />
+    </RelativeLayout>
+
+</FrameLayout>

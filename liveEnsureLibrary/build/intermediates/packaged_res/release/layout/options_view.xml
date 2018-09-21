@@ -1,0 +1,258 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/options_fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/liveensure_fullscreen_background"
+    tools:context="com.liveensure.a.mini.MainActivity" >
+
+    <ImageView
+        android:id="@+id/options_drawer_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/liveensure_drawer_hint"
+        android:src="@drawable/liveensure_drawer" />
+
+    <ScrollView
+        android:id="@+id/options_scroll_region"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/options_drawer_icon"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="15dp"
+        android:fillViewport="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/behavior_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/behavior_toggle"
+                android:paddingEnd="0dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="0dp"
+                android:paddingStart="20dp"
+                android:text="@string/behavior_label_text"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="normal" />
+
+            <Switch
+                android:id="@+id/behavior_toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/behavior_label"
+                android:layout_marginRight="20dp"
+                android:textOff="Off"
+                android:textOn="On" />
+
+            <Button
+                android:id="@+id/behavior_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/behavior_label"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/btn_label_view"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/behavior_buy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/behavior_label"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/btn_label_buy"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/behavior_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/behavior_label"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:text="@string/behavior_desc_text"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/pin_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/behavior_description"
+                android:layout_marginTop="30dp"
+                android:layout_toLeftOf="@+id/pin_toggle"
+                android:paddingEnd="0dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="0dp"
+                android:paddingStart="20dp"
+                android:text="@string/pin_label_text"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="normal" />
+
+            <Switch
+                android:id="@+id/pin_toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/pin_label"
+                android:layout_marginRight="20dp"
+                android:textOff="Off"
+                android:textOn="On" />
+
+            <Button
+                android:id="@+id/pin_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/pin_label"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/btn_label_view"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/pin_buy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/pin_label"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/btn_label_buy"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/pin_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/pin_label"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:text="@string/pin_desc_text"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/pebble_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/pin_description"
+                android:layout_marginTop="30dp"
+                android:layout_toLeftOf="@+id/pebble_toggle"
+                android:paddingEnd="0dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="0dp"
+                android:paddingStart="20dp"
+                android:text="@string/pebble_label_text"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="normal" />
+
+            <Switch
+                android:id="@+id/pebble_toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/pebble_label"
+                android:layout_marginRight="20dp"
+                android:textOff="Off"
+                android:textOn="On" />
+
+            <Button
+                android:id="@+id/pebble_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/pebble_label"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/btn_label_view"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/pebble_buy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/pebble_label"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/btn_label_buy"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/pebble_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/pebble_label"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:text="@string/pebble_desc_text"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/options_reset_devs_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/reset_dev_button_text"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

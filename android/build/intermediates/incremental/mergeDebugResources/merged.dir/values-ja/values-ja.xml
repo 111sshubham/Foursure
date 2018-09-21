@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="LiveEnsure">LiveEnsure</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s、%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s、%2$s、%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"検索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="app_name">LiveEnsure</string>
+    <string msgid="3983201110833868073" name="auth_client_needs_enabling_title">"アプリではGoogle Play開発者サービスを有効にする必要があります。"</string>
+    <string msgid="7999585836145154206" name="auth_client_needs_installation_title">"アプリではGoogle Play開発者サービスをインストールする必要があります。"</string>
+    <string msgid="6488605506794595966" name="auth_client_needs_update_title">"アプリではGoogle Play開発者サービスをアップデートする必要があります。"</string>
+    <string msgid="3635065018897986478" name="auth_client_play_services_err_notification_msg">"Google Play開発者サービスのエラー"</string>
+    <string msgid="6304135633531965756" name="auth_client_requested_by_msg">"<ns1:g id="APP_NAME">%1$s</ns1:g>によるリクエスト"</string>
+    <string msgid="2534454398764507874" name="auth_client_using_bad_version_title">"アプリはGoogle Play開発者サービスの不適切なバージョンを使用しようとしました。"</string>
+    <string name="bad_scan">Bad Scan</string>
+    <string name="behavior_desc_text">行動コントロールを使えば、普通の認証にちょっとした一ひねりを追加できます。正確で正しい方法でのログインしか受付けられません。（タップして編集）</string>
+    <string name="behavior_label_text">行動コントロール</string>
+    <string name="bones_api_host">http://bones.loyinc.pvt:8080/live-identity/rest</string>
+    <string name="btn_label_bones">bones</string>
+    <string name="btn_label_buy">購入</string>
+    <string name="btn_label_next">次</string>
+    <string name="btn_label_ok">OK</string>
+    <string name="btn_label_raven">raven</string>
+    <string name="btn_label_retry">リトライ</string>
+    <string name="btn_label_save">Save</string>
+    <string name="btn_label_support">オンラインヘルプ</string>
+    <string name="btn_label_tutorial">チュートリアル</string>
+    <string name="btn_label_view">見る</string>
+    <string name="btn_reset_device">Reset Device</string>
+    <string name="btn_reset_purchases">Reset Purchases</string>
+    <string name="cancel">*キャンセル</string>
+    <string name="canceled">*キャンセルされました</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Play開発者サービスの有効化"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"このアプリの実行には、Google Play開発者サービスの有効化が必要です。"</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Play開発者サービスの有効化"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Play開発者サービスの入手"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"このアプリの実行にはGoogle Play開発者サービスが必要ですが、お使いの携帯端末にはインストールされていません。"</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"このアプリの実行にはGoogle Play開発者サービスが必要ですが、お使いのタブレットにはインストールされていません。"</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Play開発者サービスの入手"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"指定したアカウントはこの端末上に存在しません。別のアカウントを選択してください。"</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"無効なアカウント"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Google Play開発者サービスに接続するには、データ接続が必要です。"</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"ネットワークエラー"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Google Play開発者サービスで原因不明の問題が発生しました。"</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"一部のアプリが使用しているGoogle Play開発者サービスは、お使いの端末ではサポートされていません。詳しくは、端末メーカーまでお問い合わせください。"</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play開発者サービス"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"このアプリの実行には、Google Play開発者サービスの更新が必要です。"</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Play開発者サービスの更新"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"ログイン"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Googleでログイン"</string>
+    <string name="configuring">*構成中…</string>
+    <string name="connect_error">Connect Error</string>
+    <string name="connecting">接続中…</string>
+    <string name="contacting_store">*ストアへ接続中</string>
+    <string name="dev_device_reset_message">Device Reset</string>
+    <string name="dev_no_purchases_to_consume">No current purchases to reset</string>
+    <string name="dev_reset_purchases_title">Reset Purchases</string>
+    <string name="dev_saved_message">Settings saved</string>
+    <string name="developer_host_text">Your fallback api host:</string>
+    <string name="done">*完了</string>
+    <string name="edit">*編集</string>
+    <string name="error_fragment_text">Error</string>
+    <string name="installed">*この機能のインストールと構成が無事完了しました。オン・オフスイッチを使えば有効化・無効化への切り替えができます。名前をタップすればリセットまたは再構成ができます。</string>
+    <string name="introduction">*はじめに</string>
+    <string name="item_icon_description">Item Icon</string>
+    <string name="liveensure_drawer_hint">Tap for menu</string>
+    <string name="msg_google_play_services_reqd">Google Play Services is required for this application to run</string>
+    <string name="msg_loc_services_nocheck">Unable to check for location services on this device.</string>
+    <string name="msg_loc_services_unsupported">Location services are not supported on this device.</string>
+    <string name="msg_location_description">*ホームの位置と適切な距離を設定します。位置コントロールを有効化すると、設定されたエリアの外で試みたログインは全て拒否されます。（タップして編集）</string>
+    <string name="msg_location_title">*位置コントロール</string>
+    <string name="msg_unable_to_launch">Unable to Launch</string>
+    <string name="nav_auth">認証</string>
+    <string name="nav_closed">Nav Closed</string>
+    <string name="nav_developer">Developer</string>
+    <string name="nav_help">ヘルプ</string>
+    <string name="nav_item_default">Nav List Item</string>
+    <string name="nav_open">Nav Open</string>
+    <string name="need_auth_label_text">設定の変更や機能の構成の前に認証を行ってください。</string>
+    <string name="need_auth_new_session_button_text">新規セッション</string>
+    <string name="no">*いいえ</string>
+    <string name="no_features">*機能は現在インストールされていません。ストアに新しいセキュリティ機能があります。</string>
+    <string name="options">オプション</string>
+    <string name="pin_desc_text">昔ながらの多要素の代役がここに! 各セッションの追加要素として、またはでその他の失敗したチャレンジの予備として使えます。（タップして編集）</string>
+    <string name="pin_entry_dot">•</string>
+    <string name="pin_entry_label_text">暗証番号を設定します。\n(3~6桁)</string>
+    <string name="pin_error_message">PINは3~6桁の数字である必要があります。</string>
+    <string name="pin_error_title">PINエラー</string>
+    <string name="pin_label_text">PIN</string>
+    <string name="prompt_fragment_text">Prompt</string>
+    <string name="raven_at_pauls">http://raven.lechnar.pvt:8080/live-identity/rest</string>
+    <string name="request_error">Your request could not be completed. Please try again later</string>
+    <string name="reset_dev_button_text">全てのデバイスをリセット</string>
+    <string name="reset_dev_confirm_message">本当に全てのデバイスをリセットしますか?</string>
+    <string name="reset_dev_confirm_title">よろしいですか?</string>
+    <string name="resetting">リセット中…</string>
+    <string msgid="146198913615257606" name="search_menu_title">"検索"</string>
+    <string name="session_credentials">session_credentials</string>
+    <string name="session_error">Error</string>
+    <string name="session_expiration">session_expiration</string>
+    <string name="session_initial_message">Failed Start</string>
+    <string name="spinner_desc">Spinner Animation</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="store">*ストア</string>
+    <string name="store_required">*We could not contact the App Store. Please try again later.</string>
+    <string name="success">Success</string>
+    <string name="touch_pane">Touch Pane</string>
+    <string name="yes">はい</string>
+</resources>

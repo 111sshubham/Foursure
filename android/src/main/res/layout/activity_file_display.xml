@@ -1,0 +1,137 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/lyt_share1_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:weightSum="100" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_share_chal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:weightSum="100" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_share_url_display"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/share_asset_value"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+                android:background="@android:color/white"
+                android:ellipsize="none"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:scrollHorizontally="false"
+                android:text=""
+                android:textColor="@color/dark_text"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_btns_row_3"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="23"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/btn_get_asset"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                android:src="@drawable/get_asset" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="15"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/lyt_btns_row_4"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="25"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/btn_receive_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="15"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitEnd"
+                android:src="@drawable/home" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="80"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
